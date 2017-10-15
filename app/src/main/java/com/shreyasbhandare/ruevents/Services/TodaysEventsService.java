@@ -29,7 +29,7 @@ import retrofit2.Response;
 
 public class TodaysEventsService extends Service implements RetrofitBuilder {
     // constant
-    public static final long NOTIFY_INTERVAL = 60000; //3600*1000
+    public static final long NOTIFY_INTERVAL = 3600000; //3600*1000
     ArrayList<Organization> organizationList = new ArrayList<>();
     ArrayList<Event> todaysEventList = new ArrayList<>();
 
